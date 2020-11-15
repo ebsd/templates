@@ -1,7 +1,7 @@
-# CUSTOM PANDOC TEMPLATE : default.latex
+# My custom pandoc templates
 
-## Entête yaml :
+For markdown writing.
 
-```
-...
-```
+## yaml
+
+Please read template file.
