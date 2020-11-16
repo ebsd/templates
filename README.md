@@ -6,6 +6,11 @@ For markdown writing.
 
 Clone this repo into `~/.pandoc/templates`.
 
+```
+cd ~/.pandoc
+git clone https://github.com/ebsd/templates.git
+```
+
 ## yaml
 
 Please read template file.

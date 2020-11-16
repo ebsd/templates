@@ -1,4 +1,24 @@
 %% DEFAULT TEMPLATE PANDOC (default.latex)
+%% yaml header for your .md file
+%title: "Note"
+%subject: ""
+%author: ""
+%date: "xx.xx.202x"
+%email: ""
+%street: ""
+%postcode: ""
+%city: ""
+%phone: ""
+%website: ""
+%keywords: []
+%linestretch: 1.2
+%fontsize: 11pt
+%code-block-font-size: \scriptsize
+%header-includes: |
+%	<!-- Police fourier : $\noway$ = sens interdit, $\danger$ = panneau exclamation, etc. -->
+%	\usepackage{fourier}
+
+
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode$for(hyperrefoptions)$,$hyperrefoptions$$endfor$}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
@@ -511,8 +531,8 @@ $endif$
 	\fancyhf{}% Clear header/footer
 	\fancyheadoffset[L]{15mm}
 	% Note : j'utilise des Raisebox sinon la hauteur du header se répercute sur la hauteur de la page, avec pour conséquence le bébordement du bas de page hors de la page
-	\fancyhead[L]{\raisebox{-12mm}[0pt][0pt]{\begin{tabular}[t]{l} $if(logo)$\includegraphics[width=6cm]{{$logo$}}$endif$\\ \footnotesize $if(street)${$street$}$endif$ \\ \footnotesize $if(postcodecity)${$postcodecity$}$endif$ \\ \\ \footnotesize \textcolor{vert}{$author$} \end{tabular}}} 
-	\fancyhead[R]{\raisebox{-15mm}[0pt][0pt]{\begin{tabular}[t]{l}\\ \\ \\ \huge $title-meta$ \\ \\ \\ \hfill\small Genève, le $date$ \end{tabular}}}
+	\fancyhead[L]{\raisebox{-12mm}[0pt][0pt]{\begin{tabular}[t]{l} $if(logo)$\includegraphics[width=6cm]{{$logo$}}$endif$\\ \footnotesize $if(street)${$street$}$endif$ \\ \footnotesize $if(postcode)${$postcode$}$endif$ $if(city)${$city$}$endif$ \\ \\ \footnotesize \textcolor{vert}{$author$} \end{tabular}}} 
+	\fancyhead[R]{\raisebox{-15mm}[0pt][0pt]{\begin{tabular}[t]{l}\\ \\ \\ \huge $title-meta$ \\ \\ \\ \hfill\small $if(city)${$city$}$endif$, le $date$ \end{tabular}}}
 	\cfoot{\footnotesize \textcolor{gray}{$if(email)${$email$}$endif$ | $if(phone)${$phone$}$endif$ |  $if(website)${$website$}$endif$}}
 	\renewcommand{\headrulewidth}{0pt}% No header rule
 }
