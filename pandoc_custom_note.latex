@@ -17,7 +17,6 @@
 %code-block-font-size: \scriptsize
 %header-includes: |
 %	<!-- Police fourier : \noway = sens interdit, \danger = panneau exclamation, etc. -->
-%	<!-- Note \noway et \danger doivent être entre deux signes $-->
 %	\usepackage{fourier}
 %---
 %
