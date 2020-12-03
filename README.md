@@ -17,9 +17,11 @@ Convert .md to .pdf :
 pandoc note-template-pandoc-markdown.md -o note-template-pandoc-markdown.pdf --from markdown --template pandoc_custom_note --highlight-style breezedark
 ```
 
-## yaml header
+## yaml header for markdown file
 
 Please read template file `pandoc_custom_note.latex`.
+
+Or check `note-template-pandoc-markdown.md`.
 
 # Eisvogel template
 
@@ -30,3 +32,8 @@ Convert .md to .pdf :
 ```
 pandoc doc-template-pandoc-markdown.md -o doc-template-pandoc-markdown.pdf --from markdown --template eisvogel --toc --number-sections --highlight-style breezedark
 ```
+
+## yaml header for markdown file
+
+Check `doc-template-pandoc-markdown.md`.
+
