@@ -14,7 +14,7 @@ git clone https://github.com/ebsd/templates.git
 Convert .md to .pdf :
 
 ```
-pandoc test.md -o test.pdf --from markdown --template pandoc_custom_note --highlight-style breezedark
+pandoc note-template-pandoc-markdown.md -o note-template-pandoc-markdown.pdf --from markdown --template pandoc_custom_note --highlight-style breezedark
 ```
 
 ## yaml header
@@ -24,3 +24,9 @@ Please read template file `pandoc_custom_note.latex`.
 # Eisvogel template
 
 Is coming from https://github.com/Wandmalfarbe/pandoc-latex-template.
+
+Convert .md to .pdf :
+
+```
+pandoc doc-template-pandoc-markdown.md -o doc-template-pandoc-markdown.pdf --from markdown --template eisvogel --toc --number-sections --highlight-style breezedark
+```
