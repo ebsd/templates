@@ -1,4 +1,4 @@
-# Use
+# Usage
 
 Clone this repo into `~/.pandoc/templates`.
 
