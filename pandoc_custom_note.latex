@@ -1,4 +1,5 @@
 %% yaml header for your .md file
+%---
 %title: "Note"
 %subject: ""
 %author: ""
@@ -18,6 +19,7 @@
 %	<!-- Police fourier : \noway = sens interdit, \danger = panneau exclamation, etc. -->
 %	<!-- Note \noway et \danger doivent être entre deux signes $-->
 %	\usepackage{fourier}
+%---
 %
 %% Origin : DEFAULT TEMPLATE PANDOC (default.latex)
 % Options for packages loaded elsewhere
