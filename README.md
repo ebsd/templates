@@ -1,8 +1,4 @@
-# My custom pandoc template
-
-For markdown writing : `pandoc_custom_note.latex`.
-
-## Use
+# Use
 
 Clone this repo into `~/.pandoc/templates`.
 
@@ -10,6 +6,8 @@ Clone this repo into `~/.pandoc/templates`.
 cd ~/.pandoc
 git clone https://github.com/ebsd/templates.git
 ```
+
+# Custom pandoc template
 
 Convert .md to .pdf :
 
