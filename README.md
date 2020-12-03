@@ -1,6 +1,6 @@
-# My custom pandoc templates
+# My custom pandoc template
 
-For markdown writing.
+For markdown writing : `pandoc_custom_note.latex`.
 
 ## Use
 
@@ -17,6 +17,10 @@ Convert .md to .pdf :
 pandoc test.md -o test.pdf --from markdown --template pandoc_custom_note --highlight-style breezedark
 ```
 
-## yaml
+## yaml header
 
-Please read template file.
+Please read template file `pandoc_custom_note.latex`.
+
+# Eisvogel template
+
+Is coming from https://github.com/Wandmalfarbe/pandoc-latex-template.
